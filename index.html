@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="main">
+            <div class="inputs">
+                <section class="left">
+                    <input type="text" placeholder="Capital" id="capital">
+                    <input type="text" placeholder="Years" id="years">
+                    <input type="text" placeholder="Interest" id="interest">
+                </section>
+                <section class="right">
+                    <div>
+                        <input type="checkbox" name="compound" id="compound">
+                        <label for="compound">Compound ?</label>
+                    </div>
+                    <input type="text" placeholder="Total amount" id="total_amount" readonly>
+                </section>
+            </div>
+            <button id="calculate">calculate</button>
+        </div>
+    </main>
+
+    <script src="calculation.js"></script>
+</body>
+</html>
